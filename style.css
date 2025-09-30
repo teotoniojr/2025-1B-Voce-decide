@@ -1,7 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Double+Ink:wght@100..900&family=Share+Tech&display=swap');
+
 :root{
-   
---blue-green: #219ebcff;
---prussian-blue: #023047ff;
---selective-yellow: #ffb703ff;
---ut-orange: #fb8500ff;
+--azul: #219ebcff;
+--azul-forte: #023047ff;
+--amarelo: #ffb703ff;
+--laranja: #fb8500ff;
+--titulo: "Bitcount Prop Double Ink", system-ui;
+--texto: "Share Tech", sans-serif;
+}
+
+body{
+    background-color: var(--azul);
+    font-family: var(--texto);
 }
